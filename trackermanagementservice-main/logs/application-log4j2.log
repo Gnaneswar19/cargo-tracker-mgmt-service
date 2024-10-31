@@ -1,0 +1,28 @@
+2024-10-29 23:53:39 [main] INFO  : Starting TrackerManagementApplication using Java 23.0.1 with PID 24732 (D:\practice\Applications\trackermanagementservice\target\classes started by srini in D:\practice\Applications\trackermanagementservice)
+2024-10-29 23:53:39 [main] INFO  : No active profile set, falling back to 1 default profile: "default"
+2024-10-29 23:53:40 [main] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-29 23:53:40 [main] INFO  : Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interfaces.
+2024-10-29 23:53:41 [main] INFO  : Tomcat initialized with port(s): 8080 (http)
+2024-10-29 23:53:41 [main] INFO  : Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-29 23:53:41 [main] INFO  : Starting service [Tomcat]
+2024-10-29 23:53:41 [main] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-10-29 23:53:41 [main] INFO  : Initializing Spring embedded WebApplicationContext
+2024-10-29 23:53:41 [main] INFO  : Root WebApplicationContext: initialization completed in 2807 ms
+2024-10-29 23:53:42 [main] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-29 23:53:42 [main] INFO  : HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-10-29 23:53:42 [main] INFO  : HHH000406: Using bytecode reflection optimizer
+2024-10-29 23:53:43 [main] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-29 23:53:43 [main] INFO  : HikariPool-1 - Starting...
+2024-10-29 23:53:44 [main] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2047adea
+2024-10-29 23:53:44 [main] INFO  : HikariPool-1 - Start completed.
+2024-10-29 23:53:44 [main] WARN  : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-29 23:53:45 [main] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-29 23:53:46 [main] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-29 23:53:46 [main] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-29 23:53:47 [main] INFO  : Starting ProtocolHandler ["http-nio-8080"]
+2024-10-29 23:53:47 [main] INFO  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-29 23:53:47 [main] INFO  : Started TrackerManagementApplication in 9.789 seconds (process running for 20.819)
+2024-10-29 23:54:55 [http-nio-8080-exec-5] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-29 23:54:55 [http-nio-8080-exec-5] INFO  : Initializing Servlet 'dispatcherServlet'
+2024-10-29 23:54:55 [http-nio-8080-exec-5] INFO  : Completed initialization in 3 ms
+2024-10-29 23:54:56 [http-nio-8080-exec-5] INFO  : save tracker details
